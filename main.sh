@@ -23,6 +23,22 @@ sh redis/redis_setup.sh
 
 echo "\n\n" 
 
-echo "TESTS ON REDIS...\n\n"
+echo "TESTS 1 ON REDIS...\n\n"
 ## REDIS BENCHMARK TESTS
-sh redis/redis_tests.sh
+sh redis/redis_tests1.sh
+
+echo "\n\n" 
+
+sleep 15
+
+echo "TESTS 2 ON REDIS...\n\n"
+## REDIS BENCHMARK TESTS
+sh redis/redis_tests2.sh
+
+echo "\n\n" 
+
+sleep 10
+
+echo "TESTS 3 ON REDIS...\n\n"
+## REDIS BENCHMARK TESTS
+sh redis/redis_tests3.sh

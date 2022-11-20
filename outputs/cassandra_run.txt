@@ -547,3 +547,251 @@
 
 
 
+-------- WORKLOAD A -------- 
+
+
+/usr/bin/java  -classpath /Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/conf:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/cassandra-driver-core-3.0.0.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/guava-16.0.1.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/metrics-core-3.1.2.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-buffer-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-codec-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-common-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-handler-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-transport-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/slf4j-api-1.7.25.jar site.ycsb.Client -t -db site.ycsb.db.CassandraCQLClient -s -P ycsb-0.17.0/workloads/workloada -p hosts=127.0.0.1
+
+
+
+-------- WORKLOAD B -------- 
+
+
+/usr/bin/java  -classpath /Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/conf:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/cassandra-driver-core-3.0.0.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/guava-16.0.1.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/metrics-core-3.1.2.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-buffer-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-codec-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-common-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-handler-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-transport-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/slf4j-api-1.7.25.jar site.ycsb.Client -t -db site.ycsb.db.CassandraCQLClient -s -P ycsb-0.17.0/workloads/workloadb -p hosts=127.0.0.1
+
+
+
+-------- WORKLOAD C -------- 
+
+
+/usr/bin/java  -classpath /Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/conf:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/cassandra-driver-core-3.0.0.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/guava-16.0.1.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/metrics-core-3.1.2.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-buffer-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-codec-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-common-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-handler-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-transport-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/slf4j-api-1.7.25.jar site.ycsb.Client -t -db site.ycsb.db.CassandraCQLClient -s -P ycsb-0.17.0/workloads/workloadc -p hosts=127.0.0.1
+
+
+
+-------- WORKLOAD D -------- 
+
+
+/usr/bin/java  -classpath /Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/conf:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/cassandra-driver-core-3.0.0.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/guava-16.0.1.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/metrics-core-3.1.2.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-buffer-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-codec-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-common-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-handler-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-transport-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/slf4j-api-1.7.25.jar site.ycsb.Client -t -db site.ycsb.db.CassandraCQLClient -s -P ycsb-0.17.0/workloads/workloadd -p hosts=127.0.0.1
+
+
+
+-------- WORKLOAD E -------- 
+
+
+/usr/bin/java  -classpath /Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/conf:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/cassandra-driver-core-3.0.0.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/guava-16.0.1.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/metrics-core-3.1.2.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-buffer-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-codec-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-common-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-handler-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-transport-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/slf4j-api-1.7.25.jar site.ycsb.Client -t -db site.ycsb.db.CassandraCQLClient -s -P ycsb-0.17.0/workloads/workloade -p hosts=127.0.0.1
+
+
+
+-------- WORKLOAD A -------- 
+
+
+
+
+
+-------- WORKLOAD B -------- 
+
+
+
+
+
+-------- WORKLOAD C -------- 
+
+
+
+
+
+-------- WORKLOAD D -------- 
+
+
+
+
+
+-------- WORKLOAD E -------- 
+
+
+
+
+
+-------- WORKLOAD A -------- 
+
+
+/usr/bin/java  -classpath /Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/conf:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/HdrHistogram-2.1.4.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/core-0.17.0.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/htrace-core4-4.1.0-incubating.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/jackson-core-asl-1.9.4.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/jackson-mapper-asl-1.9.4.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/cassandra-binding-0.17.0.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/cassandra-driver-core-3.0.0.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/guava-16.0.1.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/metrics-core-3.1.2.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-buffer-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-codec-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-common-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-handler-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-transport-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/slf4j-api-1.7.25.jar site.ycsb.Client -t -db site.ycsb.db.CassandraCQLClient -s -P ycsb-0.17.0/workloads/workloada -p hosts=127.0.0.1
+[OVERALL], RunTime(ms), 11966
+[OVERALL], Throughput(ops/sec), 83.57011532675915
+[TOTAL_GCS_G1_Young_Generation], Count, 2
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 9
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.07521310379408325
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 9
+[TOTAL_GC_TIME_%], Time(%), 0.07521310379408325
+[READ], Operations, 502
+[READ], AverageLatency(us), 3898.7191235059763
+[READ], MinLatency(us), 2072
+[READ], MaxLatency(us), 34655
+[READ], 95thPercentileLatency(us), 6675
+[READ], 99thPercentileLatency(us), 11815
+[READ], Return=OK, 502
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 2221056.0
+[CLEANUP], MinLatency(us), 2220032
+[CLEANUP], MaxLatency(us), 2222079
+[CLEANUP], 95thPercentileLatency(us), 2222079
+[CLEANUP], 99thPercentileLatency(us), 2222079
+[UPDATE], Operations, 498
+[UPDATE], AverageLatency(us), 3830.425702811245
+[UPDATE], MinLatency(us), 2218
+[UPDATE], MaxLatency(us), 29759
+[UPDATE], 95thPercentileLatency(us), 7303
+[UPDATE], 99thPercentileLatency(us), 12231
+[UPDATE], Return=OK, 498
+
+
+
+-------- WORKLOAD B -------- 
+
+
+/usr/bin/java  -classpath /Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/conf:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/HdrHistogram-2.1.4.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/core-0.17.0.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/htrace-core4-4.1.0-incubating.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/jackson-core-asl-1.9.4.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/jackson-mapper-asl-1.9.4.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/cassandra-binding-0.17.0.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/cassandra-driver-core-3.0.0.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/guava-16.0.1.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/metrics-core-3.1.2.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-buffer-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-codec-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-common-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-handler-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-transport-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/slf4j-api-1.7.25.jar site.ycsb.Client -t -db site.ycsb.db.CassandraCQLClient -s -P ycsb-0.17.0/workloads/workloadb -p hosts=127.0.0.1
+[OVERALL], RunTime(ms), 11270
+[OVERALL], Throughput(ops/sec), 88.73114463176574
+[TOTAL_GCS_G1_Young_Generation], Count, 2
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 9
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.07985803016858918
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 9
+[TOTAL_GC_TIME_%], Time(%), 0.07985803016858918
+[READ], Operations, 949
+[READ], AverageLatency(us), 3323.6754478398316
+[READ], MinLatency(us), 1920
+[READ], MaxLatency(us), 24783
+[READ], 95thPercentileLatency(us), 4895
+[READ], 99thPercentileLatency(us), 8519
+[READ], Return=OK, 949
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 2223104.0
+[CLEANUP], MinLatency(us), 2222080
+[CLEANUP], MaxLatency(us), 2224127
+[CLEANUP], 95thPercentileLatency(us), 2224127
+[CLEANUP], 99thPercentileLatency(us), 2224127
+[UPDATE], Operations, 51
+[UPDATE], AverageLatency(us), 4018.156862745098
+[UPDATE], MinLatency(us), 2028
+[UPDATE], MaxLatency(us), 9151
+[UPDATE], 95thPercentileLatency(us), 7243
+[UPDATE], 99thPercentileLatency(us), 7831
+[UPDATE], Return=OK, 51
+
+
+
+-------- WORKLOAD C -------- 
+
+
+/usr/bin/java  -classpath /Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/conf:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/HdrHistogram-2.1.4.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/core-0.17.0.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/htrace-core4-4.1.0-incubating.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/jackson-core-asl-1.9.4.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/jackson-mapper-asl-1.9.4.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/cassandra-binding-0.17.0.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/cassandra-driver-core-3.0.0.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/guava-16.0.1.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/metrics-core-3.1.2.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-buffer-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-codec-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-common-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-handler-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-transport-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/slf4j-api-1.7.25.jar site.ycsb.Client -t -db site.ycsb.db.CassandraCQLClient -s -P ycsb-0.17.0/workloads/workloadc -p hosts=127.0.0.1
+[OVERALL], RunTime(ms), 10743
+[OVERALL], Throughput(ops/sec), 93.08386856557759
+[TOTAL_GCS_G1_Young_Generation], Count, 2
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 9
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.08377548170901983
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 9
+[TOTAL_GC_TIME_%], Time(%), 0.08377548170901983
+[READ], Operations, 1000
+[READ], AverageLatency(us), 2906.024
+[READ], MinLatency(us), 1701
+[READ], MaxLatency(us), 26255
+[READ], 95thPercentileLatency(us), 4623
+[READ], 99thPercentileLatency(us), 6779
+[READ], Return=OK, 1000
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 2219008.0
+[CLEANUP], MinLatency(us), 2217984
+[CLEANUP], MaxLatency(us), 2220031
+[CLEANUP], 95thPercentileLatency(us), 2220031
+[CLEANUP], 99thPercentileLatency(us), 2220031
+
+
+
+-------- WORKLOAD D -------- 
+
+
+/usr/bin/java  -classpath /Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/conf:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/HdrHistogram-2.1.4.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/core-0.17.0.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/htrace-core4-4.1.0-incubating.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/jackson-core-asl-1.9.4.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/jackson-mapper-asl-1.9.4.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/cassandra-binding-0.17.0.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/cassandra-driver-core-3.0.0.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/guava-16.0.1.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/metrics-core-3.1.2.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-buffer-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-codec-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-common-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-handler-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-transport-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/slf4j-api-1.7.25.jar site.ycsb.Client -t -db site.ycsb.db.CassandraCQLClient -s -P ycsb-0.17.0/workloads/workloadd -p hosts=127.0.0.1
+[OVERALL], RunTime(ms), 10524
+[OVERALL], Throughput(ops/sec), 95.02090459901179
+[TOTAL_GCS_G1_Young_Generation], Count, 2
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 9
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.08551881413911061
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 9
+[TOTAL_GC_TIME_%], Time(%), 0.08551881413911061
+[READ], Operations, 951
+[READ], AverageLatency(us), 2682.9716088328078
+[READ], MinLatency(us), 1651
+[READ], MaxLatency(us), 22079
+[READ], 95thPercentileLatency(us), 3635
+[READ], 99thPercentileLatency(us), 5111
+[READ], Return=OK, 951
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 2223104.0
+[CLEANUP], MinLatency(us), 2222080
+[CLEANUP], MaxLatency(us), 2224127
+[CLEANUP], 95thPercentileLatency(us), 2224127
+[CLEANUP], 99thPercentileLatency(us), 2224127
+[INSERT], Operations, 49
+[INSERT], AverageLatency(us), 3240.938775510204
+[INSERT], MinLatency(us), 2084
+[INSERT], MaxLatency(us), 8791
+[INSERT], 95thPercentileLatency(us), 4491
+[INSERT], 99thPercentileLatency(us), 8791
+[INSERT], Return=OK, 49
+
+
+
+-------- WORKLOAD E -------- 
+
+
+/usr/bin/java  -classpath /Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/conf:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/HdrHistogram-2.1.4.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/core-0.17.0.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/htrace-core4-4.1.0-incubating.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/jackson-core-asl-1.9.4.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/jackson-mapper-asl-1.9.4.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/cassandra-binding-0.17.0.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/cassandra-driver-core-3.0.0.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/guava-16.0.1.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/metrics-core-3.1.2.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-buffer-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-codec-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-common-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-handler-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-transport-4.0.33.Final.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/slf4j-api-1.7.25.jar site.ycsb.Client -t -db site.ycsb.db.CassandraCQLClient -s -P ycsb-0.17.0/workloads/workloade -p hosts=127.0.0.1
+[OVERALL], RunTime(ms), 13000
+[OVERALL], Throughput(ops/sec), 76.92307692307692
+[TOTAL_GCS_G1_Young_Generation], Count, 5
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 20
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.15384615384615385
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 5
+[TOTAL_GC_TIME], Time(ms), 20
+[TOTAL_GC_TIME_%], Time(%), 0.15384615384615385
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 2221056.0
+[CLEANUP], MinLatency(us), 2220032
+[CLEANUP], MaxLatency(us), 2222079
+[CLEANUP], 95thPercentileLatency(us), 2222079
+[CLEANUP], 99thPercentileLatency(us), 2222079
+[INSERT], Operations, 45
+[INSERT], AverageLatency(us), 3312.8888888888887
+[INSERT], MinLatency(us), 2040
+[INSERT], MaxLatency(us), 10159
+[INSERT], 95thPercentileLatency(us), 5931
+[INSERT], 99thPercentileLatency(us), 10159
+[INSERT], Return=OK, 45
+[SCAN], Operations, 955
+[SCAN], AverageLatency(us), 5259.804188481676
+[SCAN], MinLatency(us), 1885
+[SCAN], MaxLatency(us), 197887
+[SCAN], 95thPercentileLatency(us), 9895
+[SCAN], 99thPercentileLatency(us), 14615
+[SCAN], Return=OK, 955
+
+
+
