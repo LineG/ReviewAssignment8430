@@ -5,15 +5,34 @@ tar -xf ycsb-0.17.0.tar.gz
 
 echo "\n\n" 
 
-echo "SET UP OF CASSANDRA...\n\n"
+# Create outputs folder if it does not already exist
+mkdir -p outputs
+
+echo "SETUP OF CASSANDRA...\n\n"
 ## CASSANDRA SETUP
 sh cassandra/cassandra_setup.sh
 
 echo "\n\n" 
 
-echo "TESTS ON CASSANDRA...\n\n"
+echo "TEST 1 ON CASSANDRA...\n\n"
 ## CASSANDRA BENCHMARK TESTS
-sh cassandra/cassandra_tests.sh
+sh cassandra/cassandra_tests.sh tests_1
+
+echo "\n\n" 
+
+sleep 15
+
+echo "TEST 2 ON CASSANDRA...\n\n"
+## CASSANDRA BENCHMARK TESTS
+sh cassandra/cassandra_tests.sh tests_2
+
+echo "\n\n" 
+
+sleep 10
+
+echo "TEST 3 ON CASSANDRA...\n\n"
+## CASSANDRA BENCHMARK TESTS
+sh cassandra/cassandra_tests.sh tests_3
 
 echo "\n\n" 
 

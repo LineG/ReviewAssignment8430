@@ -1,6 +1,6 @@
-/usr/bin/java  -classpath /Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/conf:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/HdrHistogram-2.1.4.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/core-0.17.0.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/htrace-core4-4.1.0-incubating.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/jackson-core-asl-1.9.4.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/jackson-mapper-asl-1.9.4.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/redis-binding/lib/commons-pool2-2.4.2.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/redis-binding/lib/jedis-2.9.0.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/redis-binding/lib/redis-binding-0.17.0.jar site.ycsb.Client -t -db site.ycsb.db.RedisClient -s -P workloads/workloadc -p redis.host=127.0.0.1 -p redis.port=6379
-[OVERALL], RunTime(ms), 1188
-[OVERALL], Throughput(ops/sec), 841.7508417508418
+/usr/lib/jvm/default-java/bin/java  -classpath /home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/conf:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/lib/HdrHistogram-2.1.4.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/lib/core-0.17.0.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/lib/htrace-core4-4.1.0-incubating.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/lib/jackson-core-asl-1.9.4.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/lib/jackson-mapper-asl-1.9.4.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/redis-binding/lib/commons-pool2-2.4.2.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/redis-binding/lib/jedis-2.9.0.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/redis-binding/lib/redis-binding-0.17.0.jar site.ycsb.Client -t -db site.ycsb.db.RedisClient -s -P workloads/workloadc -p redis.host=127.0.0.1 -p redis.port=6379
+[OVERALL], RunTime(ms), 308
+[OVERALL], Throughput(ops/sec), 3246.753246753247
 [TOTAL_GCS_G1_Young_Generation], Count, 0
 [TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
 [TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
@@ -11,15 +11,15 @@
 [TOTAL_GC_TIME], Time(ms), 0
 [TOTAL_GC_TIME_%], Time(%), 0.0
 [READ], Operations, 1000
-[READ], AverageLatency(us), 1115.313
-[READ], MinLatency(us), 643
-[READ], MaxLatency(us), 12519
-[READ], 95thPercentileLatency(us), 1434
-[READ], 99thPercentileLatency(us), 1906
+[READ], AverageLatency(us), 200.383
+[READ], MinLatency(us), 91
+[READ], MaxLatency(us), 17135
+[READ], 95thPercentileLatency(us), 308
+[READ], 99thPercentileLatency(us), 386
 [READ], Return=OK, 1000
 [CLEANUP], Operations, 1
-[CLEANUP], AverageLatency(us), 686.0
-[CLEANUP], MinLatency(us), 686
-[CLEANUP], MaxLatency(us), 686
-[CLEANUP], 95thPercentileLatency(us), 686
-[CLEANUP], 99thPercentileLatency(us), 686
+[CLEANUP], AverageLatency(us), 757.0
+[CLEANUP], MinLatency(us), 757
+[CLEANUP], MaxLatency(us), 757
+[CLEANUP], 95thPercentileLatency(us), 757
+[CLEANUP], 99thPercentileLatency(us), 757

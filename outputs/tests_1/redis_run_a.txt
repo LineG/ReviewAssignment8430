@@ -1,6 +1,6 @@
-/usr/bin/java  -classpath /Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/conf:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/HdrHistogram-2.1.4.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/core-0.17.0.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/htrace-core4-4.1.0-incubating.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/jackson-core-asl-1.9.4.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/lib/jackson-mapper-asl-1.9.4.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/redis-binding/lib/commons-pool2-2.4.2.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/redis-binding/lib/jedis-2.9.0.jar:/Users/wilfried/Documents/school/uni/session_9/log8430/TP3/ReviewAssignment8430/ycsb-0.17.0/redis-binding/lib/redis-binding-0.17.0.jar site.ycsb.Client -t -db site.ycsb.db.RedisClient -s -P workloads/workloada -p redis.host=127.0.0.1 -p redis.port=6379
-[OVERALL], RunTime(ms), 1560
-[OVERALL], Throughput(ops/sec), 641.025641025641
+/usr/lib/jvm/default-java/bin/java  -classpath /home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/conf:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/lib/HdrHistogram-2.1.4.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/lib/core-0.17.0.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/lib/htrace-core4-4.1.0-incubating.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/lib/jackson-core-asl-1.9.4.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/lib/jackson-mapper-asl-1.9.4.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/redis-binding/lib/commons-pool2-2.4.2.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/redis-binding/lib/jedis-2.9.0.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/redis-binding/lib/redis-binding-0.17.0.jar site.ycsb.Client -t -db site.ycsb.db.RedisClient -s -P workloads/workloada -p redis.host=127.0.0.1 -p redis.port=6379
+[OVERALL], RunTime(ms), 316
+[OVERALL], Throughput(ops/sec), 3164.5569620253164
 [TOTAL_GCS_G1_Young_Generation], Count, 0
 [TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
 [TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
@@ -11,22 +11,22 @@
 [TOTAL_GC_TIME], Time(ms), 0
 [TOTAL_GC_TIME_%], Time(%), 0.0
 [READ], Operations, 503
-[READ], AverageLatency(us), 1506.337972166998
-[READ], MinLatency(us), 753
-[READ], MaxLatency(us), 26575
-[READ], 95thPercentileLatency(us), 2339
-[READ], 99thPercentileLatency(us), 3421
+[READ], AverageLatency(us), 204.86282306163022
+[READ], MinLatency(us), 89
+[READ], MaxLatency(us), 11991
+[READ], 95thPercentileLatency(us), 262
+[READ], 99thPercentileLatency(us), 344
 [READ], Return=OK, 503
 [CLEANUP], Operations, 1
-[CLEANUP], AverageLatency(us), 2243.0
-[CLEANUP], MinLatency(us), 2242
-[CLEANUP], MaxLatency(us), 2243
-[CLEANUP], 95thPercentileLatency(us), 2243
-[CLEANUP], 99thPercentileLatency(us), 2243
+[CLEANUP], AverageLatency(us), 797.0
+[CLEANUP], MinLatency(us), 797
+[CLEANUP], MaxLatency(us), 797
+[CLEANUP], 95thPercentileLatency(us), 797
+[CLEANUP], 99thPercentileLatency(us), 797
 [UPDATE], Operations, 497
-[UPDATE], AverageLatency(us), 1441.8591549295775
-[UPDATE], MinLatency(us), 781
-[UPDATE], MaxLatency(us), 7603
-[UPDATE], 95thPercentileLatency(us), 2089
-[UPDATE], 99thPercentileLatency(us), 3185
+[UPDATE], AverageLatency(us), 219.1790744466801
+[UPDATE], MinLatency(us), 118
+[UPDATE], MaxLatency(us), 8647
+[UPDATE], 95thPercentileLatency(us), 269
+[UPDATE], 99thPercentileLatency(us), 329
 [UPDATE], Return=OK, 497
