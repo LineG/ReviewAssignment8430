@@ -1,1 +1,2 @@
 -Install wget
+-Install and start docker
