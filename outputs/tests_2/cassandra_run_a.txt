@@ -1,38 +1,35 @@
--------- WORKLOAD A -------- 
-
-
 /usr/lib/jvm/default-java/bin/java  -classpath /home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/conf:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/lib/HdrHistogram-2.1.4.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/lib/core-0.17.0.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/lib/htrace-core4-4.1.0-incubating.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/lib/jackson-core-asl-1.9.4.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/lib/jackson-mapper-asl-1.9.4.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/cassandra-binding-0.17.0.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/cassandra-driver-core-3.0.0.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/guava-16.0.1.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/metrics-core-3.1.2.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-buffer-4.0.33.Final.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-codec-4.0.33.Final.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-common-4.0.33.Final.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-handler-4.0.33.Final.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-transport-4.0.33.Final.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/slf4j-api-1.7.25.jar site.ycsb.Client -t -db site.ycsb.db.CassandraCQLClient -s -P ycsb-0.17.0/workloads/workloada -p hosts=127.0.0.1
-[OVERALL], RunTime(ms), 5118
-[OVERALL], Throughput(ops/sec), 195.38882375928097
+[OVERALL], RunTime(ms), 7008
+[OVERALL], Throughput(ops/sec), 142.69406392694063
 [TOTAL_GCS_G1_Young_Generation], Count, 1
-[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 12
-[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.23446658851113714
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 22
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.3139269406392694
 [TOTAL_GCS_G1_Old_Generation], Count, 0
 [TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
 [TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
 [TOTAL_GCs], Count, 1
-[TOTAL_GC_TIME], Time(ms), 12
-[TOTAL_GC_TIME_%], Time(%), 0.23446658851113714
-[READ], Operations, 498
-[READ], AverageLatency(us), 1775.309236947791
-[READ], MinLatency(us), 881
-[READ], MaxLatency(us), 12511
-[READ], 95thPercentileLatency(us), 2399
-[READ], 99thPercentileLatency(us), 3515
-[READ], Return=OK, 498
+[TOTAL_GC_TIME], Time(ms), 22
+[TOTAL_GC_TIME_%], Time(%), 0.3139269406392694
+[READ], Operations, 520
+[READ], AverageLatency(us), 2787.6884615384615
+[READ], MinLatency(us), 884
+[READ], MaxLatency(us), 74111
+[READ], 95thPercentileLatency(us), 6639
+[READ], 99thPercentileLatency(us), 11831
+[READ], Return=OK, 520
 [CLEANUP], Operations, 1
-[CLEANUP], AverageLatency(us), 2233344.0
-[CLEANUP], MinLatency(us), 2232320
-[CLEANUP], MaxLatency(us), 2234367
-[CLEANUP], 95thPercentileLatency(us), 2234367
-[CLEANUP], 99thPercentileLatency(us), 2234367
-[UPDATE], Operations, 502
-[UPDATE], AverageLatency(us), 1790.3565737051792
-[UPDATE], MinLatency(us), 812
-[UPDATE], MaxLatency(us), 29055
-[UPDATE], 95thPercentileLatency(us), 2383
-[UPDATE], 99thPercentileLatency(us), 5419
-[UPDATE], Return=OK, 502
+[CLEANUP], AverageLatency(us), 2231296.0
+[CLEANUP], MinLatency(us), 2230272
+[CLEANUP], MaxLatency(us), 2232319
+[CLEANUP], 95thPercentileLatency(us), 2232319
+[CLEANUP], 99thPercentileLatency(us), 2232319
+[UPDATE], Operations, 480
+[UPDATE], AverageLatency(us), 3061.28125
+[UPDATE], MinLatency(us), 922
+[UPDATE], MaxLatency(us), 29135
+[UPDATE], 95thPercentileLatency(us), 8527
+[UPDATE], 99thPercentileLatency(us), 15215
+[UPDATE], Return=OK, 480
 
 
 

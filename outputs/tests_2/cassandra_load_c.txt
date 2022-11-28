@@ -1,30 +1,27 @@
--------- WORKLOAD C -------- 
-
-
 /usr/lib/jvm/default-java/bin/java  -classpath /home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/conf:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/lib/HdrHistogram-2.1.4.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/lib/core-0.17.0.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/lib/htrace-core4-4.1.0-incubating.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/lib/jackson-core-asl-1.9.4.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/lib/jackson-mapper-asl-1.9.4.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/cassandra-binding-0.17.0.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/cassandra-driver-core-3.0.0.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/guava-16.0.1.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/metrics-core-3.1.2.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-buffer-4.0.33.Final.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-codec-4.0.33.Final.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-common-4.0.33.Final.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-handler-4.0.33.Final.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-transport-4.0.33.Final.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/slf4j-api-1.7.25.jar site.ycsb.Client -load -db site.ycsb.db.CassandraCQLClient -s -P ycsb-0.17.0/workloads/workloadc -p hosts=127.0.0.1
-[OVERALL], RunTime(ms), 5161
-[OVERALL], Throughput(ops/sec), 193.7608990505716
+[OVERALL], RunTime(ms), 4666
+[OVERALL], Throughput(ops/sec), 214.3163309044149
 [TOTAL_GCS_G1_Young_Generation], Count, 1
-[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 11
-[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.21313698895562877
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 4
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.08572653236176596
 [TOTAL_GCS_G1_Old_Generation], Count, 0
 [TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
 [TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
 [TOTAL_GCs], Count, 1
-[TOTAL_GC_TIME], Time(ms), 11
-[TOTAL_GC_TIME_%], Time(%), 0.21313698895562877
+[TOTAL_GC_TIME], Time(ms), 4
+[TOTAL_GC_TIME_%], Time(%), 0.08572653236176596
 [CLEANUP], Operations, 1
-[CLEANUP], AverageLatency(us), 2227200.0
-[CLEANUP], MinLatency(us), 2226176
-[CLEANUP], MaxLatency(us), 2228223
-[CLEANUP], 95thPercentileLatency(us), 2228223
-[CLEANUP], 99thPercentileLatency(us), 2228223
+[CLEANUP], AverageLatency(us), 2229248.0
+[CLEANUP], MinLatency(us), 2228224
+[CLEANUP], MaxLatency(us), 2230271
+[CLEANUP], 95thPercentileLatency(us), 2230271
+[CLEANUP], 99thPercentileLatency(us), 2230271
 [INSERT], Operations, 1000
-[INSERT], AverageLatency(us), 1848.668
-[INSERT], MinLatency(us), 726
-[INSERT], MaxLatency(us), 31119
-[INSERT], 95thPercentileLatency(us), 2847
-[INSERT], 99thPercentileLatency(us), 5095
+[INSERT], AverageLatency(us), 1772.371
+[INSERT], MinLatency(us), 583
+[INSERT], MaxLatency(us), 40159
+[INSERT], 95thPercentileLatency(us), 4045
+[INSERT], 99thPercentileLatency(us), 8551
 [INSERT], Return=OK, 1000
 
 
