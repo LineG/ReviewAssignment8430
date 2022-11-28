@@ -61,3 +61,31 @@ sleep 10
 echo "TESTS 3 ON REDIS...\n\n"
 ## REDIS BENCHMARK TESTS
 sh redis/redis_tests3.sh
+
+echo "SETUP OF MONGODB...\n\n"
+## mongodb SETUP
+sh mongodb/mongodb_setup.sh
+
+echo "\n\n" 
+
+echo "TEST 1 ON MONGODB...\n\n"
+## mongodb BENCHMARK TESTS
+sh mongodb/mongodb_tests.sh tests_1
+
+echo "\n\n" 
+
+sleep 15
+
+echo "TEST 2 ON MONGODB...\n\n"
+## mongodb BENCHMARK TESTS
+sh mongodb/mongodb_tests.sh tests_2
+
+echo "\n\n" 
+
+sleep 10
+
+echo "TEST 3 ON MONGODB...\n\n"
+## mongodb BENCHMARK TESTS
+sh mongodb/mongodb_tests.sh tests_3
+
+echo "\n\n" 
