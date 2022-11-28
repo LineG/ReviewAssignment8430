@@ -1,3 +1,29 @@
+# SETTING UP THE ENVIRONMENT
+sudo apt update
+
+## installing java
+sudo apt install default-jre -y
+sudo apt install default-jdk -y
+
+## installing maven
+sudo apt install maven -y
+
+## installing docker
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+sudo apt install docker-ce
+
+### run docker without sudo
+sudo usermod -aG docker ${USER}
+su - ${USER}
+
+## installing docker-compose
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+docker-compose --version
+
+
 ## FETCH LATEST BUILD OF YCSB
 echo "Fetching YCSB latest build...\n\n"
 wget https://github.com/brianfrankcooper/YCSB/releases/download/0.17.0/ycsb-0.17.0.tar.gz
