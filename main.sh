@@ -9,10 +9,10 @@ sudo apt install default-jdk -y
 sudo apt install maven -y
 
 ## installing docker
-sudo apt install apt-transport-https ca-certificates curl software-properties-common
+sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
-sudo apt install docker-ce
+sudo apt install docker-ce -y
 
 ## installing docker-compose
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
@@ -54,6 +54,9 @@ echo "TEST 3 ON CASSANDRA...\n\n"
 ## CASSANDRA BENCHMARK TESTS
 sh cassandra/cassandra_tests.sh tests_3
 
+## Stop and clean up cassandra containers
+sudo docker-compose -f cassandra/docker-compose.yml down
+
 echo "\n\n" 
 
 echo "SET UP OF REDIS...\n\n"
@@ -82,6 +85,9 @@ echo "TESTS 3 ON REDIS...\n\n"
 ## REDIS BENCHMARK TESTS
 sh redis/redis_tests3.sh
 
+## Stop and clean up redis containers
+sudo docker-compose -f redis/docker-compose.yml down
+
 echo "SETUP OF MONGODB...\n\n"
 ## mongodb SETUP
 sh mongodb/mongodb_setup.sh
@@ -108,4 +114,7 @@ echo "TEST 3 ON MONGODB...\n\n"
 ## mongodb BENCHMARK TESTS
 sh mongodb/mongodb_tests.sh tests_3
 
-echo "\n\n" 
+echo "\n\n"
+
+## Stop and clean up redis containers
+sudo docker-compose -f mongodb/docker-compose-mongodb.yml down
