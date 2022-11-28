@@ -1,4 +1,4 @@
 #run the nodes
 cd redis
-docker-compose up -d
+sudo docker-compose up -d
 cd ..
