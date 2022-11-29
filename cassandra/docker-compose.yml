@@ -15,7 +15,7 @@ services:
     environment:
       CASSANDRA_SEEDS: "cassandra-node-1,cassandra-node-2,cassandra-node-3,cassandra-node-4,cassandra-node-5,cassandra-node-6"
       CASSANDRA_CLUSTER_NAME: CassandraCluster
-      MAX_HEAP_SIZE: 1G
+      MAX_HEAP_SIZE: 2G
       HEAP_NEWSIZE: 200M
 
   cassandra-node-2:
@@ -31,7 +31,7 @@ services:
     environment:
       CASSANDRA_SEEDS: "cassandra-node-1,cassandra-node-2,cassandra-node-3,cassandra-node-4,cassandra-node-5,cassandra-node-6"
       CASSANDRA_CLUSTER_NAME: CassandraCluster
-      MAX_HEAP_SIZE: 1G
+      MAX_HEAP_SIZE: 2G
       HEAP_NEWSIZE: 200M
     depends_on:
       - cassandra-node-1
@@ -49,7 +49,7 @@ services:
     environment:
       CASSANDRA_SEEDS: "cassandra-node-1,cassandra-node-2,cassandra-node-3,cassandra-node-4,cassandra-node-5,cassandra-node-6"
       CASSANDRA_CLUSTER_NAME: CassandraCluster
-      MAX_HEAP_SIZE: 1G
+      MAX_HEAP_SIZE: 2G
       HEAP_NEWSIZE: 200M
     depends_on:
      - cassandra-node-2
@@ -67,7 +67,7 @@ services:
     environment:
       CASSANDRA_SEEDS: "cassandra-node-1,cassandra-node-2,cassandra-node-3,cassandra-node-4,cassandra-node-5,cassandra-node-6"
       CASSANDRA_CLUSTER_NAME: CassandraCluster
-      MAX_HEAP_SIZE: 1G
+      MAX_HEAP_SIZE: 2G
       HEAP_NEWSIZE: 200M
     depends_on:
      - cassandra-node-3
@@ -86,7 +86,7 @@ services:
     environment:
       CASSANDRA_SEEDS: "cassandra-node-1,cassandra-node-2,cassandra-node-3,cassandra-node-4,cassandra-node-5,cassandra-node-6"
       CASSANDRA_CLUSTER_NAME: CassandraCluster
-      MAX_HEAP_SIZE: 1G
+      MAX_HEAP_SIZE: 2G
       HEAP_NEWSIZE: 200M
     depends_on:
      - cassandra-node-4
@@ -104,7 +104,7 @@ services:
     environment:
       CASSANDRA_SEEDS: "cassandra-node-1,cassandra-node-2,cassandra-node-3,cassandra-node-4,cassandra-node-5,cassandra-node-6"
       CASSANDRA_CLUSTER_NAME: CassandraCluster
-      MAX_HEAP_SIZE: 1G
+      MAX_HEAP_SIZE: 2G
       HEAP_NEWSIZE: 200M
     depends_on:
      - cassandra-node-5
