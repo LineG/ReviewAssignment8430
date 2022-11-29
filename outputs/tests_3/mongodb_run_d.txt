@@ -37,3 +37,42 @@ mongo client connection created with mongodb://mongo1:30001,mongo2:30002,mongo3:
 
 
 
+-------- WORKLOAD C RUN-------- 
+
+
+/usr/bin/java  -classpath /home/ubuntu/ReviewAssignment8430/ycsb-0.17.0/conf:/home/ubuntu/ReviewAssignment8430/ycsb-0.17.0/lib/HdrHistogram-2.1.4.jar:/home/ubuntu/ReviewAssignment8430/ycsb-0.17.0/lib/core-0.17.0.jar:/home/ubuntu/ReviewAssignment8430/ycsb-0.17.0/lib/htrace-core4-4.1.0-incubating.jar:/home/ubuntu/ReviewAssignment8430/ycsb-0.17.0/lib/jackson-core-asl-1.9.4.jar:/home/ubuntu/ReviewAssignment8430/ycsb-0.17.0/lib/jackson-mapper-asl-1.9.4.jar:/home/ubuntu/ReviewAssignment8430/ycsb-0.17.0/mongodb-binding/lib/logback-classic-1.1.2.jar:/home/ubuntu/ReviewAssignment8430/ycsb-0.17.0/mongodb-binding/lib/logback-core-1.1.2.jar:/home/ubuntu/ReviewAssignment8430/ycsb-0.17.0/mongodb-binding/lib/mongo-java-driver-3.8.0.jar:/home/ubuntu/ReviewAssignment8430/ycsb-0.17.0/mongodb-binding/lib/mongodb-async-driver-2.0.1.jar:/home/ubuntu/ReviewAssignment8430/ycsb-0.17.0/mongodb-binding/lib/mongodb-binding-0.17.0.jar:/home/ubuntu/ReviewAssignment8430/ycsb-0.17.0/mongodb-binding/lib/slf4j-api-1.7.25.jar:/home/ubuntu/ReviewAssignment8430/ycsb-0.17.0/mongodb-binding/lib/snappy-java-1.1.7.1.jar site.ycsb.Client -t -db site.ycsb.db.MongoDbClient -s -P ycsb-0.17.0/workloads/workloadd -p recordcount=1000 -p mongodb.upsert=true -p mongodb.url=mongodb://mongo1:30001,mongo2:30002,mongo3:30003,mongo4:30004,mongo5:30005,mongo6:30006/?replicaSet=my-replica-set
+mongo client connection created with mongodb://mongo1:30001,mongo2:30002,mongo3:30003,mongo4:30004,mongo5:30005,mongo6:30006/?replicaSet=my-replica-set
+[OVERALL], RunTime(ms), 1620
+[OVERALL], Throughput(ops/sec), 617.283950617284
+[TOTAL_GCS_G1_Young_Generation], Count, 4
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 28
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 1.728395061728395
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 4
+[TOTAL_GC_TIME], Time(ms), 28
+[TOTAL_GC_TIME_%], Time(%), 1.728395061728395
+[READ], Operations, 958
+[READ], AverageLatency(us), 813.6659707724426
+[READ], MinLatency(us), 328
+[READ], MaxLatency(us), 75519
+[READ], 95thPercentileLatency(us), 1789
+[READ], 99thPercentileLatency(us), 3853
+[READ], Return=OK, 958
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 5682.0
+[CLEANUP], MinLatency(us), 5680
+[CLEANUP], MaxLatency(us), 5683
+[CLEANUP], 95thPercentileLatency(us), 5683
+[CLEANUP], 99thPercentileLatency(us), 5683
+[INSERT], Operations, 42
+[INSERT], AverageLatency(us), 5182.5952380952385
+[INSERT], MinLatency(us), 3098
+[INSERT], MaxLatency(us), 14807
+[INSERT], 95thPercentileLatency(us), 6739
+[INSERT], 99thPercentileLatency(us), 14807
+[INSERT], Return=OK, 42
+
+
+

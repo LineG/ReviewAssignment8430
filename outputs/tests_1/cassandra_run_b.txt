@@ -1,35 +1,35 @@
-/usr/lib/jvm/default-java/bin/java  -classpath /home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/conf:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/lib/HdrHistogram-2.1.4.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/lib/core-0.17.0.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/lib/htrace-core4-4.1.0-incubating.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/lib/jackson-core-asl-1.9.4.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/lib/jackson-mapper-asl-1.9.4.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/cassandra-binding-0.17.0.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/cassandra-driver-core-3.0.0.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/guava-16.0.1.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/metrics-core-3.1.2.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-buffer-4.0.33.Final.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-codec-4.0.33.Final.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-common-4.0.33.Final.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-handler-4.0.33.Final.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-transport-4.0.33.Final.jar:/home/jereluck20/Documents/Workspace/Poly/LOG8430/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/slf4j-api-1.7.25.jar site.ycsb.Client -t -db site.ycsb.db.CassandraCQLClient -s -P ycsb-0.17.0/workloads/workloadb -p hosts=127.0.0.1
-[OVERALL], RunTime(ms), 5026
-[OVERALL], Throughput(ops/sec), 198.96538002387584
-[TOTAL_GCS_G1_Young_Generation], Count, 2
-[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 16
-[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.31834460803820136
+/usr/bin/java  -classpath /home/ubuntu/ReviewAssignment8430/ycsb-0.17.0/conf:/home/ubuntu/ReviewAssignment8430/ycsb-0.17.0/lib/HdrHistogram-2.1.4.jar:/home/ubuntu/ReviewAssignment8430/ycsb-0.17.0/lib/core-0.17.0.jar:/home/ubuntu/ReviewAssignment8430/ycsb-0.17.0/lib/htrace-core4-4.1.0-incubating.jar:/home/ubuntu/ReviewAssignment8430/ycsb-0.17.0/lib/jackson-core-asl-1.9.4.jar:/home/ubuntu/ReviewAssignment8430/ycsb-0.17.0/lib/jackson-mapper-asl-1.9.4.jar:/home/ubuntu/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/cassandra-binding-0.17.0.jar:/home/ubuntu/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/cassandra-driver-core-3.0.0.jar:/home/ubuntu/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/guava-16.0.1.jar:/home/ubuntu/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/metrics-core-3.1.2.jar:/home/ubuntu/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-buffer-4.0.33.Final.jar:/home/ubuntu/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-codec-4.0.33.Final.jar:/home/ubuntu/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-common-4.0.33.Final.jar:/home/ubuntu/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-handler-4.0.33.Final.jar:/home/ubuntu/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/netty-transport-4.0.33.Final.jar:/home/ubuntu/ReviewAssignment8430/ycsb-0.17.0/cassandra-binding/lib/slf4j-api-1.7.25.jar site.ycsb.Client -t -db site.ycsb.db.CassandraCQLClient -s -P ycsb-0.17.0/workloads/workloadb -p hosts=127.0.0.1
+[OVERALL], RunTime(ms), 18620
+[OVERALL], Throughput(ops/sec), 53.70569280343717
+[TOTAL_GCS_G1_Young_Generation], Count, 3
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 41
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.22019334049409237
 [TOTAL_GCS_G1_Old_Generation], Count, 0
 [TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
 [TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
-[TOTAL_GCs], Count, 2
-[TOTAL_GC_TIME], Time(ms), 16
-[TOTAL_GC_TIME_%], Time(%), 0.31834460803820136
-[READ], Operations, 939
-[READ], AverageLatency(us), 2001.2992545260915
-[READ], MinLatency(us), 975
-[READ], MaxLatency(us), 30991
-[READ], 95thPercentileLatency(us), 3147
-[READ], 99thPercentileLatency(us), 6255
-[READ], Return=OK, 939
+[TOTAL_GCs], Count, 3
+[TOTAL_GC_TIME], Time(ms), 41
+[TOTAL_GC_TIME_%], Time(%), 0.22019334049409237
+[READ], Operations, 956
+[READ], AverageLatency(us), 15952.8410041841
+[READ], MinLatency(us), 621
+[READ], MaxLatency(us), 12058623
+[READ], 95thPercentileLatency(us), 9615
+[READ], 99thPercentileLatency(us), 18031
+[READ], Return=OK, 956
 [CLEANUP], Operations, 1
-[CLEANUP], AverageLatency(us), 2235392.0
-[CLEANUP], MinLatency(us), 2234368
-[CLEANUP], MaxLatency(us), 2236415
-[CLEANUP], 95thPercentileLatency(us), 2236415
-[CLEANUP], 99thPercentileLatency(us), 2236415
-[UPDATE], Operations, 61
-[UPDATE], AverageLatency(us), 2720.2622950819673
-[UPDATE], MinLatency(us), 1328
-[UPDATE], MaxLatency(us), 10495
-[UPDATE], 95thPercentileLatency(us), 6699
-[UPDATE], 99thPercentileLatency(us), 8287
-[UPDATE], Return=OK, 61
+[CLEANUP], AverageLatency(us), 2225152.0
+[CLEANUP], MinLatency(us), 2224128
+[CLEANUP], MaxLatency(us), 2226175
+[CLEANUP], 95thPercentileLatency(us), 2226175
+[CLEANUP], 99thPercentileLatency(us), 2226175
+[UPDATE], Operations, 44
+[UPDATE], AverageLatency(us), 6001.681818181818
+[UPDATE], MinLatency(us), 1040
+[UPDATE], MaxLatency(us), 19183
+[UPDATE], 95thPercentileLatency(us), 17567
+[UPDATE], 99thPercentileLatency(us), 19183
+[UPDATE], Return=OK, 44
 
 
 
