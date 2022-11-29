@@ -13,8 +13,10 @@ services:
     volumes:
       - /tmp/data/cassandra-node-1:/var/lib/cassandra
     environment:
-        CASSANDRA_SEEDS: "cassandra-node-1,cassandra-node-2,cassandra-node-3"
-        CASSANDRA_CLUSTER_NAME: CassandraCluster
+      CASSANDRA_SEEDS: "cassandra-node-1,cassandra-node-2,cassandra-node-3,cassandra-node-4,cassandra-node-5,cassandra-node-6"
+      CASSANDRA_CLUSTER_NAME: CassandraCluster
+      MAX_HEAP_SIZE: 1G
+      HEAP_NEWSIZE: 200M
 
   cassandra-node-2:
     image: cassandra:4.0.7
@@ -27,8 +29,10 @@ services:
     volumes:
       - /tmp/data/cassandra-node-2:/var/lib/cassandra
     environment:
-      CASSANDRA_SEEDS: "cassandra-node-1,cassandra-node-2,cassandra-node-3"
+      CASSANDRA_SEEDS: "cassandra-node-1,cassandra-node-2,cassandra-node-3,cassandra-node-4,cassandra-node-5,cassandra-node-6"
       CASSANDRA_CLUSTER_NAME: CassandraCluster
+      MAX_HEAP_SIZE: 1G
+      HEAP_NEWSIZE: 200M
     depends_on:
       - cassandra-node-1
 
@@ -43,7 +47,64 @@ services:
     volumes:
       - /tmp/data/cassandra-node-3:/var/lib/cassandra
     environment:
-      CASSANDRA_SEEDS: "cassandra-node-1,cassandra-node-2,cassandra-node-3"
+      CASSANDRA_SEEDS: "cassandra-node-1,cassandra-node-2,cassandra-node-3,cassandra-node-4,cassandra-node-5,cassandra-node-6"
       CASSANDRA_CLUSTER_NAME: CassandraCluster
+      MAX_HEAP_SIZE: 1G
+      HEAP_NEWSIZE: 200M
     depends_on:
      - cassandra-node-2
+
+  cassandra-node-4:
+    image: cassandra:4.0.7
+    container_name: cassandra-node-4
+    hostname: cassandra-node-4
+    networks:
+      - cassandra
+    ports:
+      - "9045:9042"
+    volumes:
+      - /tmp/data/cassandra-node-4:/var/lib/cassandra
+    environment:
+      CASSANDRA_SEEDS: "cassandra-node-1,cassandra-node-2,cassandra-node-3,cassandra-node-4,cassandra-node-5,cassandra-node-6"
+      CASSANDRA_CLUSTER_NAME: CassandraCluster
+      MAX_HEAP_SIZE: 1G
+      HEAP_NEWSIZE: 200M
+    depends_on:
+     - cassandra-node-3
+
+
+  cassandra-node-5:
+    image: cassandra:4.0.7
+    container_name: cassandra-node-5
+    hostname: cassandra-node-5
+    networks:
+      - cassandra
+    ports:
+      - "9046:9042"
+    volumes:
+      - /tmp/data/cassandra-node-5:/var/lib/cassandra
+    environment:
+      CASSANDRA_SEEDS: "cassandra-node-1,cassandra-node-2,cassandra-node-3,cassandra-node-4,cassandra-node-5,cassandra-node-6"
+      CASSANDRA_CLUSTER_NAME: CassandraCluster
+      MAX_HEAP_SIZE: 1G
+      HEAP_NEWSIZE: 200M
+    depends_on:
+     - cassandra-node-4
+
+  cassandra-node-6:
+    image: cassandra:4.0.7
+    container_name: cassandra-node-6
+    hostname: cassandra-node-6
+    networks:
+      - cassandra
+    ports:
+      - "9047:9042"
+    volumes:
+      - /tmp/data/cassandra-node-6:/var/lib/cassandra
+    environment:
+      CASSANDRA_SEEDS: "cassandra-node-1,cassandra-node-2,cassandra-node-3,cassandra-node-4,cassandra-node-5,cassandra-node-6"
+      CASSANDRA_CLUSTER_NAME: CassandraCluster
+      MAX_HEAP_SIZE: 1G
+      HEAP_NEWSIZE: 200M
+    depends_on:
+     - cassandra-node-5
